@@ -226,6 +226,7 @@ public abstract class TaskViewTouchController<T extends BaseDraggingActivity>
 
             mEndDisplacement = -secondaryTaskDimension;
         } else if (goingDown && getSwipeForClearAllState()) {
+            currentInterpolator = Interpolators.LINEAR;
             mPendingAnimation = mRecentsView.createAllTasksDismissAnimation(maxDuration);
 
             mEndDisplacement = -mTaskBeingDragged.getHeight();
@@ -246,7 +247,7 @@ public abstract class TaskViewTouchController<T extends BaseDraggingActivity>
             mCurrentAnimation.setOnCancelRunnable(null);
         }
         mCurrentAnimation = mPendingAnimation.createPlaybackController()
-                .setOnCancelRunnable(this::clearState);
+               .setOnCancelRunnable(this::clearState);
         // Setting this interpolator doesn't affect the visual motion, but is used to determine
         // whether we successfully reached the target state in onDragEnd().
         mCurrentAnimation.getTarget().setInterpolator(currentInterpolator);
