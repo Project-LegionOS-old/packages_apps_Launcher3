@@ -48,5 +48,21 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="msg_minus_one_on_left">Όταν σύρετε αριστερά από την κεντρική σελίδα</string>
     <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
     <string name="msg_minus_one_on_right">Όταν σύρετε δεξιά από την κεντρική σελίδα</string>
+    
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Προτάσεις</string>
+    <string name="suggestion_pref_screen_desc">Προτάσεις για όλες τις εφαρμογές &amp; την κεντρική σελίδα</string>
+
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Πακέτα εικονιδίων</string>
+    <string name="icon_pack_default_label">Προεπιλεγμένο</string>
+    <string name="icon_pack_add">Εγκατάσταση περισσότερων</string>
+    <string name="icon_pack_no_market">Δεν\υπάρχουν άλλα διαθέσιμα στο κατάστημα θεμάτων</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Διαμόρφωση</string>
+    <string name="settings_edit_allow_summary_on">Εικονίδια και γραφικά στοιχεία, μπορούν να προστεθούν ή και να διαγραφούν, από την κεντρική σελίδα</string>
+    <string name="settings_edit_allow_summary_off">Εικονίδια και γραφικά στοιχεία, δεν\μπορούν να προστεθούν ή και να διαγραφούν, από την κεντρική σελίδα</string>
+    <string name="settings_edit_widgets_error">Δεν\είναι δυνατή η προσθήκη γραφικών στοιχείων στην κεντρική σελίδα</string>
 
 </resources>
