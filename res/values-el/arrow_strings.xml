@@ -29,6 +29,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     <string name="pref_notifications_gesture_summary">Σύρετε κάθετα στην κεντρική σελίδα, για να εμφανίσετε το πάνελ των γρήγορων ρυθμίσεων (QS)</string>
     <string name="pref_dt_gesture_title">Χειρονομία διπλού πατήματος</string>
     <string name="pref_dt_gesture_summary">Διπλό πάτημα σε ένα κενό χώρο, για σβήσιμο οθόνης</string>
+    <string name="allow_swipe_down_clearall_title">Σύρετε κάτω για να καθαρισμό προσφάτων</string>
+    <string name="allow_swipe_down_clearall_desc">Ενεργοποίηση για καθαρισμό προσφάτων εφαρμογών στη σελίδα προεπισκόπησης, με σύσρσιμο κάτω</string>
 
     <!-- Trust apps -->
     <string name="trust_apps_manager_name">Κρυφές &amp; προστατευμένες εφαρμογές</string>
