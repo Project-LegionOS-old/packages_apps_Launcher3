@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 ArrowOS
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Show searchbar -->
+    <string name="show_searchbar_title">Afficher la barre de recherche</string>
+    <string name="show_searchbar_summary">Afficher la barre de recherche sur l\'écran d\'accueil</string>
+
+    <string name="state_loading">Application en cours\u2026</string>
+
+    <!-- Gestures -->
+    <string name="gestures_category">Gestes</string>
+    <string name="pref_notifications_gesture_title">Geste de notifications</string>
+    <string name="pref_notifications_gesture_summary">Glisser verticalement vers le bas de l\'écran d\'accueil pour afficher le panneau de réglages rapides</string>
+    <string name="pref_dt_gesture_title">Geste de double appui</string>
+    <string name="pref_dt_gesture_summary">Appuyer deux fois dans un espace vide pour éteindre l\'écran</string>
+    <string name="allow_swipe_down_clearall_title">Glisser vers le bas pour fermer toutes les applications récentes</string>
+    <string name="allow_swipe_down_clearall_desc">Activer pour fermer toutes les applications récentes en glissant vers le bas depuis l\'écran d\'applications récentes</string>
+
+    <!-- Trust apps -->
+    <string name="trust_apps_manager_name">Apps Masquées &amp; Protégées</string>
+    <string name="trust_apps_manager_summary">Masquer ou protéger des apps &amp; restreindre via l\'écran de verrouillage, etc</string>
+    <string name="trust_apps_manager_name_dialog">App protégée</string>
+    <string name="trust_apps_auth_manager">Déverrouiller pour gérer les apps masquées et protégées</string>
+    <string name="trust_apps_auth_open_app">Identifiez-vous pour ouvrir %1$s</string>
+    <string name="trust_apps_loading">Chargement en cours\u2026</string>
+    <string name="trust_apps_no_lock_error">Veuiller configurer l\'écran de verrouillage sécurisé pour restreindre l\'accès à l\'application</string>
+    <string name="trust_apps_help">Aide</string>
+    <string name="trust_apps_info_hidden">Les apps masquées et leurs widgets sont masquées du tiroir d\'application</string>
+    <string name="trust_apps_info_protected">Les apps protégées nécessite une authentification pour être ouverte depuis le launcher</string>
+
+    <!-- Settings title to show Google Now at -1 screen on launcher. [CHAR LIMIT=50] -->
+    <string name="title_show_google_app">Afficher l\'app Google</string>
+    <!-- Settings message explaining when the -1 screen is available on an LTR device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_left">Lorsque vous glisser depuis la gauche sur l\'écran d\'accueil</string>
+    <!-- Settings message explaining when the -1 screen is available on an RTL device. [CHAR LIMIT=100] -->
+    <string name="msg_minus_one_on_right">Lorsque vous glisser depuis la droite sur l\'écran d\'accueil</string>
+
+    <!-- Suggestions -->
+    <string name="suggestion_pref_screen_title">Suggestions</string>
+    <string name="suggestion_pref_screen_desc">Pour afficher des suggestions dans le tiroir d\'application &amp; sur l\'écran d\'accueil</string>
+
+    <!-- Icon pack -->
+    <string name="icon_pack_title">Pack d\'icônes</string>
+    <string name="icon_pack_default_label">Défaut</string>
+    <string name="icon_pack_add">Installer davantage</string>
+    <string name="icon_pack_no_market">Il n\'y a pas de magasin d\'applications disponible</string>
+
+    <!-- Edit workspace -->
+    <string name="settings_edit_allow_title">Autoriser les modifications</string>
+    <string name="settings_edit_allow_summary_on">Des icônes et des widgets peuvent être ajoutés, supprimés ou déplacé sur l\'écran d\'accueil</string>
+    <string name="settings_edit_allow_summary_off">Les icônes et les widgets ne peuvent être ni ajoutés, ni supprimés ni déplacé sur l\'écran d\'accueil</string>
+    <string name="settings_edit_widgets_error">Il n\'est pas possible d\'ajouter de widgets sur l\'écran d\'accueil</string>
+</resources>
